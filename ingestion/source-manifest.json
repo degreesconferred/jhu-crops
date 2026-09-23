@@ -1,0 +1,63 @@
+{
+  "contract": "jhu-graduation-program-ingestion/v1",
+  "universityId": "johnshopkins",
+  "repository": "https://github.com/degreesconferred/jhu-crops",
+  "verifiedAt": "2026-09-23",
+  "order": "newest-first",
+  "years": [2026, 2025, 2024, 2023, 2022],
+  "requiredArtifacts": [
+    "official source bytes",
+    "page images",
+    "OCR or ALTO text with page geometry",
+    "program structure and degree-section inventory",
+    "deterministic evidence crops",
+    "source and crop receipts"
+  ],
+  "sources": [
+    {
+      "year": 2026,
+      "archiveUrl": "https://commencement.jhu.edu/past-years/commencement-2026/",
+      "programUrl": "https://bit.ly/JHUCommencement2026",
+      "viewer": "Issuu",
+      "status": "queued-viewer-only",
+      "validation": "Official archive page and program link verified; source bytes not yet acquired because the linked viewer is Issuu."
+    },
+    {
+      "year": 2025,
+      "archiveUrl": "https://commencement.jhu.edu/past-years/commencement-2025/",
+      "programUrl": "https://issuu.com/jhu_alumni_/docs/the_johns_hopkins_university_commencement_may_22_2?fr=sOTZmYzg1NTE0MTQ",
+      "viewer": "Issuu",
+      "status": "queued-viewer-only",
+      "validation": "Official archive page and program link verified; source bytes not yet acquired because the linked viewer is Issuu."
+    },
+    {
+      "year": 2024,
+      "archiveUrl": "https://commencement.jhu.edu/past-years/commencement-2024/",
+      "programUrl": "https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:37aaea2d-69ff-46d9-952e-f502a5231d65",
+      "viewer": "Adobe Acrobat",
+      "pageCount": 138,
+      "status": "validated-payload-awaiting-acquisition",
+      "validation": "Adobe viewer loaded Commencement 2024 Printed Program_FINAL.pdf; document summary identifies doctoral, master’s, and bachelor’s conferrals across multiple schools."
+    },
+    {
+      "year": 2023,
+      "archiveUrl": "https://commencement.jhu.edu/past-years/commencement-2023/",
+      "programUrl": "https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:8deec723-4054-49dc-87d4-502d21d0d111",
+      "viewer": "Adobe Acrobat",
+      "pageCount": 139,
+      "status": "validated-payload-awaiting-acquisition",
+      "validation": "Adobe viewer loaded the Commencement DIGITAL 2023 program and reported document loading complete."
+    },
+    {
+      "year": 2022,
+      "archiveUrl": "https://commencement.jhu.edu/past-years/commencement-2022/",
+      "programUrl": "https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:349a55d3-52b8-3ba4-ae0b-e2e95abba049#pageNum=1",
+      "viewer": "Adobe Acrobat",
+      "pageCount": 131,
+      "status": "validated-payload-awaiting-acquisition",
+      "validation": "Adobe viewer loaded Commencement DIGITAL 2022, exposed a Download the PDF control, and its document summary identified degree conferrals across multiple schools."
+    }
+  ],
+  "runStatus": "blocked-before-2026-source-acquisition",
+  "blocker": "The newest two official programs are Issuu viewer links. The ingestion run must acquire stable source bytes or a complete page-image export before OCR and crop generation can begin."
+}
