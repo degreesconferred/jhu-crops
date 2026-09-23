@@ -36,8 +36,11 @@
       "programUrl": "https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:37aaea2d-69ff-46d9-952e-f502a5231d65",
       "viewer": "Adobe Acrobat",
       "pageCount": 138,
-      "status": "validated-payload-awaiting-acquisition",
-      "validation": "Adobe viewer loaded Commencement 2024 Printed Program_FINAL.pdf; document summary identifies doctoral, master’s, and bachelor’s conferrals across multiple schools."
+      "sourceSha256": "69ee611362894ae05f6d998213be02c26fe7cdaa6e121832f939f3214fac3261",
+      "sourceBytes": 4615726,
+      "acquisition": "official-Adobe-download",
+      "status": "source-acquired-ocr-in-progress",
+      "validation": "Adobe viewer loaded Commencement 2024 Printed Program_FINAL.pdf; official download produced a 138-page PDF whose bytes are hash-attested locally. The document summary identifies doctoral, master’s, and bachelor’s conferrals across multiple schools."
     },
     {
       "year": 2023,
@@ -45,8 +48,11 @@
       "programUrl": "https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:8deec723-4054-49dc-87d4-502d21d0d111",
       "viewer": "Adobe Acrobat",
       "pageCount": 139,
-      "status": "validated-payload-awaiting-acquisition",
-      "validation": "Adobe viewer loaded the Commencement DIGITAL 2023 program and reported document loading complete."
+      "sourceSha256": "a4028e78dc10511a11b1db47c32f2c783d99a6241644e94c0cfeccdde96ef39d",
+      "sourceBytes": 2001761,
+      "acquisition": "official-Adobe-download",
+      "status": "source-acquired-queued",
+      "validation": "Adobe viewer loaded the Commencement DIGITAL 2023 program and reported document loading complete; official download produced a 139-page PDF whose bytes are hash-attested locally."
     },
     {
       "year": 2022,
@@ -54,10 +60,13 @@
       "programUrl": "https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:349a55d3-52b8-3ba4-ae0b-e2e95abba049#pageNum=1",
       "viewer": "Adobe Acrobat",
       "pageCount": 131,
-      "status": "validated-payload-awaiting-acquisition",
-      "validation": "Adobe viewer loaded Commencement DIGITAL 2022, exposed a Download the PDF control, and its document summary identified degree conferrals across multiple schools."
+      "sourceSha256": "9db25c4b27f88472514d94036c41a744d73a04d4f9c5fb8fd0e407e4c4c26a1b",
+      "sourceBytes": 7583233,
+      "acquisition": "official-Adobe-download",
+      "status": "source-acquired-queued",
+      "validation": "Adobe viewer loaded Commencement DIGITAL 2022, exposed a Download the PDF control, and its document summary identified degree conferrals across multiple schools; official download produced a 131-page PDF whose bytes are hash-attested locally."
     }
   ],
-  "runStatus": "blocked-before-2026-source-acquisition",
-  "blocker": "The newest two official programs are Issuu viewer links. The ingestion run must acquire stable source bytes or a complete page-image export before OCR and crop generation can begin."
+  "runStatus": "in-progress-2024-ocr",
+  "blocker": "2025 and 2026 remain blocked before OCR because the official archive links resolve to Issuu viewers; stable source bytes or a complete page-image export are still required."
 }

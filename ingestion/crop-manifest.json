@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "contract": "jhu-graduation-program-evidence-crops/v1",
+  "universityId": "johnshopkins",
+  "documentId": "jhu-commencement-2024",
+  "sourcePdfSha256": "69ee611362894ae05f6d998213be02c26fe7cdaa6e121832f939f3214fac3261",
+  "sourcePdfPages": 138,
+  "sourceManifestSha256": "c267f50818d7a5f3e3298dc6a6b89290891c05c00014304acb85ba1d205d6512",
+  "createdAt": "2026-09-23",
+  "crops": [
+    {
+      "id": "jhu-commencement-2024-p0044-doctoral-degrees-heading",
+      "path": "crops/jhu-commencement-2024/p0044/doctoral-degrees-heading.webp",
+      "sourcePage": 44,
+      "boxPxAt150Dpi": [0, 0, 1275, 360],
+      "width": 1275,
+      "height": 360,
+      "sha256": "c5d542225a4f518948cd9ef8f9fca481e01c42675704ecd1f37fcfae218cf704",
+      "role": "doctoral-section-anchor"
+    },
+    {
+      "id": "jhu-commencement-2024-p0066-masters-degrees-heading",
+      "path": "crops/jhu-commencement-2024/p0066/masters-degrees-heading.webp",
+      "sourcePage": 66,
+      "boxPxAt150Dpi": [0, 0, 1275, 360],
+      "width": 1275,
+      "height": 360,
+      "sha256": "63ddfe25e6568773094d62bf592864977bc0fabcf0d544ef1e6eb60c1acd09e1",
+      "role": "masters-section-anchor"
+    },
+    {
+      "id": "jhu-commencement-2024-p0130-baccalaureate-degrees-heading",
+      "path": "crops/jhu-commencement-2024/p0130/baccalaureate-degrees-heading.webp",
+      "sourcePage": 130,
+      "boxPxAt150Dpi": [0, 0, 1275, 360],
+      "width": 1275,
+      "height": 360,
+      "sha256": "037194686b9aa592503e9d1a61b879160789f8c4b37b080e0e5085a56cd02e59",
+      "role": "baccalaureate-section-anchor"
+    }
+  ]
+}
