@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "documentId": "jhu-commencement-2024",
+  "sourcePdfSha256": "69ee611362894ae05f6d998213be02c26fe7cdaa6e121832f939f3214fac3261",
+  "sourcePageCount": 138,
+  "inventoryStatus": "anchor-verified-ocr-in-progress",
+  "sections": [
+    {
+      "id": "doctoral-degrees",
+      "sourcePages": [44, 65],
+      "printedAnchorPage": 40,
+      "anchorCrop": "crops/jhu-commencement-2024/p0044/doctoral-degrees-heading.webp"
+    },
+    {
+      "id": "masters-degrees-and-certificates",
+      "sourcePages": [66, 129],
+      "printedAnchorPage": 62,
+      "anchorCrop": "crops/jhu-commencement-2024/p0066/masters-degrees-heading.webp"
+    },
+    {
+      "id": "baccalaureate-degrees",
+      "sourcePages": [130, 138],
+      "printedAnchorPage": 126,
+      "anchorCrop": "crops/jhu-commencement-2024/p0130/baccalaureate-degrees-heading.webp"
+    }
+  ],
+  "requiredBeforeRosterRelease": [
+    "complete three-lane OCR with exact page coverage",
+    "page geometry bound to the source PDF",
+    "degree-section and school inventory",
+    "deterministic name-level evidence crops",
+    "source and crop hash receipts"
+  ]
+}
