@@ -38,6 +38,9 @@
       "pageCount": 138,
       "sourceSha256": "69ee611362894ae05f6d998213be02c26fe7cdaa6e121832f939f3214fac3261",
       "sourceBytes": 4615726,
+      "processingManifestSha256": "c267f50818d7a5f3e3298dc6a6b89290891c05c00014304acb85ba1d205d6512",
+      "processingChunk": "part-001-pages-0001-0138.pdf",
+      "processingChunkSha256": "0ceda75e447d1a91e3d5420c0fdbe6fddddfa513c935d9ff4a94ccadf836c79f",
       "acquisition": "official-Adobe-download",
       "status": "source-acquired-ocr-in-progress",
       "validation": "Adobe viewer loaded Commencement 2024 Printed Program_FINAL.pdf; official download produced a 138-page PDF whose bytes are hash-attested locally. The document summary identifies doctoral, master’s, and bachelor’s conferrals across multiple schools."
@@ -50,9 +53,14 @@
       "pageCount": 139,
       "sourceSha256": "a4028e78dc10511a11b1db47c32f2c783d99a6241644e94c0cfeccdde96ef39d",
       "sourceBytes": 2001761,
+      "processingSourceSha256": "dc907a694a15727dea9ae69235cce43438f4d34774b0df3cc2254dfae8cb479b",
+      "processingSourceBytes": 2036194,
+      "processingManifestSha256": "4c5955cd53fa7c29b1c2a89ccf6564c11869dbdbbb74eddc0635671a3ffb17a6",
+      "processingChunk": "part-001-pages-0001-0139.pdf",
+      "processingChunkSha256": "2be8255c8cbf438e6dd7e057545429fb53dfbf21a2d187c339a2b4ce346b9feb",
       "acquisition": "official-Adobe-download",
-      "status": "source-acquired-queued",
-      "validation": "Adobe viewer loaded the Commencement DIGITAL 2023 program and reported document loading complete; official download produced a 139-page PDF whose bytes are hash-attested locally."
+      "status": "source-acquired-preflight-ready",
+      "validation": "Adobe viewer loaded the Commencement DIGITAL 2023 program and reported document loading complete; official download produced a 139-page PDF whose bytes are hash-attested locally. The original PDF returned non-fatal linearization-hint warnings under qpdf, so a byte-preserving page-normalized processing copy was created for chunking; page count remains 139 and page-identity chunking completed successfully with one 139-page processing chunk."
     },
     {
       "year": 2022,
@@ -62,9 +70,12 @@
       "pageCount": 131,
       "sourceSha256": "9db25c4b27f88472514d94036c41a744d73a04d4f9c5fb8fd0e407e4c4c26a1b",
       "sourceBytes": 7583233,
+      "processingManifestSha256": "5d783c842ccadee97825d3e25a759ac92fca87693c8a9c69063b3db8a191dcc3",
+      "processingChunk": "part-001-pages-0001-0131.pdf",
+      "processingChunkSha256": "7a0c5b29a27c6c1ec454c2876b980312a20e804d62613f1fa110cad7b67d0ace",
       "acquisition": "official-Adobe-download",
-      "status": "source-acquired-queued",
-      "validation": "Adobe viewer loaded Commencement DIGITAL 2022, exposed a Download the PDF control, and its document summary identified degree conferrals across multiple schools; official download produced a 131-page PDF whose bytes are hash-attested locally."
+      "status": "source-acquired-preflight-ready",
+      "validation": "Adobe viewer loaded Commencement DIGITAL 2022, exposed a Download the PDF control, and its document summary identified degree conferrals across multiple schools; official download produced a 131-page PDF whose bytes are hash-attested locally. Page-identity chunking completed successfully with one 131-page processing chunk."
     }
   ],
   "runStatus": "in-progress-2024-ocr",
